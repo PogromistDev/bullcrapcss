@@ -1,0 +1,157 @@
+body {
+	display: grid;
+	margin: 0px;
+	overflow-x: hidden;
+	height: 100vh;
+	background-image: linear-gradient(45deg, #ea44de, #e595ff, #afc7f1);
+}
+
+header {
+	background: #a100ff;
+	height: 48px;
+	z-index: 2;
+}
+
+#text-logo {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 24px;
+	height: 100%;
+
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 24px;
+
+	color: white;
+	cursor: pointer;
+}
+
+@keyframes text-info {
+	from { left: 100vw; }
+	to { left: -200vw; }
+}
+
+#interesting-piece-of-information {
+	position: absolute;
+	top: 50%;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 60px;
+	white-space: nowrap;
+	color: #fff8;
+	z-index: -1;
+
+	animation-name: text-info;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+a {
+	text-decoration: none;
+}
+
+#docs {
+	color: #003dea;
+	text-decoration: none;
+}
+
+#docs:hover {
+	text-decoration: underline;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#bullcrap {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+}
+
+#nav-things {
+	height: 100%;
+	float: right;
+}
+
+.navigation-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 24px;
+	height: 100%;
+	color: white;
+	cursor: pointer;
+}
+
+.navigation-btn:hover, .active {
+	background-color: #00000029;
+}
+
+#b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 256px;
+	height: 256px;
+	border-radius: 30px;
+	background-color: #cd54ff;
+	color: white;
+	font-family: cursive;
+	font-size: 150px;
+	cursor: pointer;
+}
+
+#side-bar {
+	position: fixed;
+	top: 0;
+	padding: 98px 0px;
+	width: 286px;
+	bottom: 0;
+	background-color: #f6e4ff;
+	overflow-y: scroll;
+	z-index: 1;
+}
+
+.doc-page {
+	padding: 10px 30px;
+	color: #bb50f1;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.doc-page:hover {
+	text-decoration: underline;
+	background-color: #ffffff61;
+}
+
+#doc-content {
+	padding-left: 286px;
+	font-size: 24px;
+	z-index: 0;
+}
+
+.section {
+	padding: 50px;
+	border-bottom: 4px solid lightgray;
+	background: white;
+}
+
+.section a:first-child {
+	font-size: 30px;
+	color: #a100ff;
+}
+
+.section-content {
+	margin-top: 8px;
+}
+
+code {
+	border-radius: 8px;
+}

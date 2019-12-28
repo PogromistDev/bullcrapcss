@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bullcrap CSS docs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/lib/bullcrap.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
+	<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+	<header>
+		<a href="/index.html"><span id="text-logo">Bullcrap CSS</span></a>
+		<div id="nav-things">
+			<a href="/index.html">
+				<div class="navigation-btn">home</div>
+			</a>
+			<a href="/docs.html">
+				<div class="navigation-btn active">documentation</div>
+			</a>
+			<a href="/lib/bullcrap.css" download>
+				<div class="navigation-btn">download</div>
+			</a>
+		</div>
+	</header>
+	<div id="side-bar" style="background-color: #f6e4ff;">
+		<a href="#bullcrapcss-setup"><div class="doc-page">Setup</div></a>
+		<a href="#bullcrapcss-usage"><div class="doc-page">Usage</div></a>
+		<a href="#bc-btn"><div class="doc-page">bc-btn</div></a>
+		<a href="#bc-btn-red"><div class="doc-page">bc-btn-red</div></a>
+		<a href="#bc-btn-green"><div class="doc-page">bc-btn-green</div></a>
+		<a href="#bc-btn-blue"><div class="doc-page">bc-btn-blue</div></a>
+
+	</div>
+	<div id="doc-content">
+		<div class="section">
+			<a href="#bullcrapcss-setup" name="bullcrapcss-setup">BullcrapCSS setup</a><br>
+			<div class="section-content">
+				Download bullcrapcss from <a href="/lib/bullcrap.css">here</a><br>
+				Include it in your html page with
+				<pre><code class="html">&lt;link rel="stylesheet" type="text/css" href="/bullcrap.css"/&gt;</code></pre>
+			</div>
+		</div>
+		<div class="section">
+			<a href="#bullcrapcss-usage" name="bullcrapcss-usage">BullcrapCSS usage</a><br>
+			<div class="section-content">
+				Add one of .bc-btn- classes to your div<br>
+				<pre>
+					<code class="html">&lt;div class=&quot;bc-btn&quot;&gt;hello&lt;/div&gt;
+&lt;div class=&quot;bc-btn blue&quot;&gt;BullcrapCSS is awesome&lt;/div&gt;
+&lt;div class=&quot;bc-btn green&quot;&gt;amazing&lt;/div&gt;</code>
+</pre>
+				<div class="bc-btn">hello</div>
+				<div class="bc-btn blue">BullcrapCSS is awesome</div>
+				<div class="bc-btn green">amazing</div>
+			</div>
+		</div>
+		<div class="section">
+			<a href="#bc-btn" name="bc-btn">.bc-btn</a>
+			<div class="section-content">
+				<pre><code class="html">&lt;div class=&quot;bc-btn&quot;&gt;button&lt;/div&gt;</pre>
+				<div class="bc-btn">button</div>
+			</div>
+		</div>
+		<div class="section">
+			<a href="#bc-btn-red" name="bc-btn-red">.bc-btn red</a>
+			<div class="section-content">
+				<pre><code class="html">&lt;div class=&quot;bc-btn red&quot;&gt;button&lt;/div&gt;</pre>
+				<div class="bc-btn red">button</div>
+			</div>
+		</div>
+		<div class="section">
+			<a href="#bc-btn-green" name="bc-btn-green">.bc-btn green</a>
+			<div class="section-content">
+				<pre><code class="html">&lt;div class=&quot;bc-btn green&quot;&gt;button&lt;/div&gt;</pre>
+				<div class="bc-btn green">button</div>
+			</div>
+		</div>
+		<div class="section">
+			<a href="#bc-btn-blue" name="bc-btn-blue">.bc-btn blue</a>
+			<div class="section-content">
+				<pre><code class="html">&lt;div class=&quot;bc-btn blue&quot;&gt;button&lt;/div&gt;</pre>
+				<div class="bc-btn blue">button</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

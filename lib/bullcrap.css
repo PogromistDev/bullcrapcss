@@ -1,0 +1,53 @@
+.bc-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 8px;
+	background-color: violet;
+	color: white;
+	user-select: none;
+	cursor: pointer;
+}
+
+.bc-btn:hover {
+	background-color: #ffa1ff;
+}
+
+.bc-btn:active {
+	background-color: #c56bc5;
+}
+
+.red {
+	background-color: red;
+}
+
+.red:hover {
+	background-color: #ff5252;
+}
+
+.red:active {
+	background-color: #d20000;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.blue:hover {
+	background-color: #6666ff;
+}
+
+.blue:active {
+	background-color: #0000b3;
+}
+
+.green {
+	background-color: green;
+}
+
+.green:hover {
+	background-color: #00c500;
+}
+
+.green:active {
+	background-color: #005800;
+}
