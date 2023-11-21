@@ -32,6 +32,15 @@ header {
 	to { left: -200vw; }
 }
 
+@media(prefers-reduced-motion: no-preference) {
+	#interesting-piece-of-information {
+		animation-name: text-info;
+		animation-duration: 15s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+}
+
 #interesting-piece-of-information {
 	position: absolute;
 	top: 50%;
@@ -41,11 +50,6 @@ header {
 	white-space: nowrap;
 	color: #fff8;
 	z-index: -1;
-
-	animation-name: text-info;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
 }
 
 a {
